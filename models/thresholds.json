@@ -1,0 +1,16 @@
+{
+  "per_class": {
+    "angry": 0.58,
+    "contempt": 0.15,
+    "disgust": 0.33,
+    "fear": 0.41,
+    "happy": 0.47,
+    "neutral": 0.35,
+    "sad": 0.61,
+    "suprise": 0.52
+  },
+  "global_fallback": 0.4,
+  "calibrated_on": "validation",
+  "coverage_calibrated": 0.903,
+  "accuracy_on_accepted_calibrated": 0.7593
+}

@@ -1,0 +1,17 @@
+# ── کتابخانه‌های اصلی ──────────────────────────────────────────────
+tensorflow>=2.16.0
+opencv-python>=4.7.0
+numpy>=1.23.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+scikit-learn>=1.2.0
+mediapipe>=0.10.0
+tqdm>=4.65.0
+pillow>=9.0.0
+
+# ── شتاب‌دهندهٔ GPU روی مک Apple Silicon (M1/M2/M3) ────────────────────
+# برای استفاده از GPU مک، این را نصب کنید (سرعت آموزش چندین برابر می‌شود):
+#   pip install tensorflow-metal
+# نکته: نسخهٔ tensorflow-metal باید با نسخهٔ tensorflow سازگار باشد.
+# tensorflow-metal

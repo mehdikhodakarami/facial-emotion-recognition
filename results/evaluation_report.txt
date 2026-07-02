@@ -1,0 +1,25 @@
+============================================================
+  FER SE-ResNet — Evaluation Report
+  Date: 2026-06-29 13:14:08
+============================================================
+
+  Top-1 Accuracy : 77.92%
+  Top-2 Accuracy : 92.44%
+  Macro    F1    : 65.29%
+  Weighted F1    : 78.26%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       Angry       0.67      0.79      0.73       322
+    Contempt       0.34      0.33      0.34        30
+     Disgust       0.50      0.52      0.51        21
+        Fear       0.48      0.61      0.54        98
+       Happy       0.92      0.88      0.90       929
+     Neutral       0.84      0.77      0.80      1274
+         Sad       0.58      0.65      0.61       449
+    Surprise       0.78      0.81      0.79       450
+
+    accuracy                           0.78      3573
+   macro avg       0.64      0.67      0.65      3573
+weighted avg       0.79      0.78      0.78      3573

@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "img_size": 64,
+  "channels": 1,
+  "architecture": "SE-ResNet",
+  "stem_filters": 64,
+  "stage_filters": [
+    64,
+    128,
+    256
+  ],
+  "blocks_per_stage": 2,
+  "head_units": 256,
+  "total_params": 2868552,
+  "batch_size": 64,
+  "epochs_planned": 45,
+  "epochs_run": 45,
+  "steps_per_epoch": 400,
+  "base_lr": 0.001,
+  "warmup_epochs": 3,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.1,
+  "optimizer": "AdamW",
+  "lr_schedule": "CosineDecay+Warmup",
+  "best_val_accuracy": 0.7099,
+  "best_epoch": 39,
+  "best_val_top2": 0.8548
+}
