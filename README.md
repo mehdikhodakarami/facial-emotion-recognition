@@ -221,7 +221,3 @@ Everything is tunable in [`config.py`](config.py):
 ## 📜 License
 
 Released under the [MIT License](LICENSE).
-
----
-
-<p align="center"><i>Built with ❤️ as a final AI project.</i></p>
