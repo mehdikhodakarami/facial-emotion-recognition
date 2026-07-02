@@ -18,14 +18,26 @@
   <b>🇬🇧 English</b> · <a href="docs/README_FA.md">🇮🇷 فارسی</a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Course-Data%20Mining-8A2BE2">
+  <img src="https://img.shields.io/badge/University-Kharazmi%20University%2C%20Tehran-004080">
+  <img src="https://img.shields.io/badge/Supervisor-Prof.%20Keyvan%20Borna-B22222">
+</p>
+
+<p align="center">
+  🎓 Final project for the <b>Data Mining</b> course at <b>Kharazmi University, Tehran</b><br>
+  Developed under the valued supervision and guidance of <b>Professor Keyvan Borna</b>
+</p>
+
 ---
 
 ## ✨ Overview
 
 This project detects **8 emotions** — `Angry · Contempt · Disgust · Fear · Happy · Neutral · Sad · Surprise` —
-from a face image, and runs live from a webcam. It was built from scratch as a final AI project, with a strong
-focus on **doing things the right way**: a memory-safe data pipeline, a modern attention-based architecture,
-disciplined train/validation/test separation, and an inference stack tuned for the real world.
+from a face image, and runs live from a webcam. It was built from scratch as the final project for the
+**Data Mining** course at **Kharazmi University, Tehran**, under the supervision of **Professor Keyvan Borna** —
+with a strong focus on **doing things the right way**: a memory-safe data pipeline, a modern attention-based
+architecture, disciplined train/validation/test separation, and an inference stack tuned for the real world.
 
 Despite being **lightweight (2.9M parameters)** and trained entirely on a **laptop CPU (Apple M2, no GPU)**,
 the model reaches **77.9% top-1** and **92.4% top-2** accuracy on the held-out test set — close to the level of
@@ -217,6 +229,19 @@ Everything is tunable in [`config.py`](config.py):
 
 - Trained and evaluated on **Apple M2 (CPU-only, 8 GB RAM)** — ~7 min/epoch, ~5 h total.
 - Fully reproducible: fixed global seed, and every run saves its exact config to `models/training_config.json`.
+
+## 🎓 Academic context & acknowledgements
+
+This project was developed as the final project for the **Data Mining** course at
+**Kharazmi University, Tehran (Iran)**.
+
+I would like to express my sincere gratitude to **Professor Keyvan Borna** for his
+exceptional supervision, insightful guidance, and continuous support throughout this
+project. His mentorship was instrumental in shaping both the methodology and the quality
+of this work — it is a genuine honor to have completed it under his guidance.
+
+> **Supervisor:** Professor Keyvan Borna — Kharazmi University, Tehran
+> **Course:** Data Mining
 
 ## 📜 License
 
