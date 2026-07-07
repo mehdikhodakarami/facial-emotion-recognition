@@ -197,6 +197,5 @@ python webcam_inference.py --mode webcam
 
 منتشرشده تحت [مجوز MIT](../LICENSE).
 
-<p align="center"><i>ساخته‌شده با ❤️ به‌عنوان پروژهٔ پایانیِ درسِ داده‌کاوی — دانشگاه خوارزمی تهران.</i></p>
 
 </div>
